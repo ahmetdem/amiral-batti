@@ -8,14 +8,6 @@ Networked Battleship-style game written in modern C++ with [raylib](https://www.
 - Deterministic game-state updates shared between a server and client over ENet
 - Makefile-driven workflow with debug, release, run, and clean targets
 
-## Prerequisites
-- A C++17-capable toolchain (`g++` or compatible) and `make`
-- Desktop environment capable of opening an SDL/OpenGL window (raylib renders a window for menus and gameplay)
-- Git submodules initialised so the bundled copies of raylib and ENet are available:
-  ```bash
-  git submodule update --init --recursive
-  ```
-
 ## Building
 The Makefile expects the static libraries in `lib/` provided by the submodules. Once prerequisites are in place:
 
