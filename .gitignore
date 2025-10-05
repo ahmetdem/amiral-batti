@@ -1,0 +1,23 @@
+# Compiled binary output
+/bin/
+/obj/
+
+# Third-party build artifacts
+/lib/enet/build/
+/lib/raylib/build/
+/lib/raylib/src/*.o
+/lib/raylib/src/*.obj
+
+# Generic object and dependency files
+*.o
+*.obj
+*.d
+
+# Common local environment files
+*.log
+*.tmp
+*.swp
+.DS_Store
+.idea/
+.vscode/
+cmake-build-*/
